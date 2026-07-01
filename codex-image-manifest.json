@@ -1,15 +1,15 @@
 {
     "schema": "ampler.codex-image-manifest.v1",
     "prospect_id": "mec-anico-24-horas-justcar-curitiba",
-    "company_name": "Mecânico 24 horas Justcar Curitiba",
-    "created_at": "2026-07-01T18:51:56-03:00",
+    "company_name": "Justcar Curitiba",
+    "created_at": "2026-07-01T18:54:54-03:00",
     "site_variant": {
-        "id": "35-tires-suspension-industrial-bold",
-        "name": "Pneus, freios e suspensao / Industrial bold",
-        "family": "Pneus, freios e suspensao",
-        "style": "Industrial bold",
+        "id": "44-neighborhood-traditional-clean-conversion",
+        "name": "Oficina local tradicional / Clean conversion",
+        "family": "Oficina local tradicional",
+        "style": "Clean conversion",
         "hero_mode": "left",
-        "service_layout": "split"
+        "service_layout": "standard"
     },
     "image_count": 6,
     "required_image_count": 6,
