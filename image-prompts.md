@@ -1,4 +1,4 @@
-# Prompts de imagem - Mecânico 24 horas Justcar Curitiba
+# Prompts de imagem - Justcar Curitiba
 
 ## hero-mobile
 
