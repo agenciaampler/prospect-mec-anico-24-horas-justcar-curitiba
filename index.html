@@ -115,10 +115,14 @@
     .trust-item span { display: block; margin-top: 4px; color: var(--muted); font-size: 13px; line-height: 1.4; }
     .brand-strip { padding: 28px 0; background: #fff; border-bottom: 1px solid var(--line); overflow: hidden; }
     .brand-strip .wrap { display: grid; gap: 16px; }
-    .brand-rail { display: flex; gap: 10px; flex-wrap: wrap; }
+    .brand-rail { display: flex; gap: 12px; flex-wrap: wrap; }
     .pill-row { display: flex; gap: 10px; flex-wrap: wrap; }
     .brand-pill, .region-pill { display: inline-flex; align-items: center; gap: 9px; min-height: 40px; padding: 0 15px; border-radius: 999px; background: #f2f5f9; font-weight: 850; font-size: 13px; color: var(--ink); }
     .brand-pill::before, .region-pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--secondary); }
+    .brand-pill.has-logo { min-height: 52px; padding: 7px 14px; border: 1px solid var(--line); background: #fff; box-shadow: 0 12px 30px rgba(13,17,23,.06); }
+    .brand-pill.has-logo::before { display: none; }
+    .brand-pill.has-logo img { width: 86px; max-width: 86px; height: 28px; object-fit: contain; }
+    .brand-pill.has-logo span { color: var(--muted); font-size: 12px; }
     .section-head { display: grid; gap: 10px; max-width: 780px; margin-bottom: 34px; }
     .section-head.center { margin-inline: auto; text-align: center; }
     .section-head h2, .split-copy h2, .band h2, .steps h2, .contact h2, .location-card h2 { margin: 0; font-size: clamp(31px, 5vw, 58px); line-height: 1.02; letter-spacing: 0; text-wrap: balance; }
